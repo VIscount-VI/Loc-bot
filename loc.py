@@ -4,7 +4,7 @@ import json
 
 
 
-BASE_URL = 'http://127.0.0.1:8000'
+BASE_URL = 'http://java4js.pythonanywhere.com/'
 
 
 def create_user(username, name, user_id):
@@ -33,5 +33,5 @@ def create_inventory(body, user_id, name):
     return 'Xabar yuborildi'
     print(post)
 
-create_inventory('0080', 'text', 'name')
+
 
