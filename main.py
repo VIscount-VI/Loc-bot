@@ -40,6 +40,7 @@ async def feedb_1(message: types.Message):
 
 @dp.message_handler(state=FeedbState.body)
 async def feedb_2(message: types. Message, state:FSMContext):
+    await message.answer('Xabar yuborish uchun "Yuborish"ni bosing va xabar yuboring !!' + emoji.emojize(""))
     await message.answer(create_inventory(message.from_user.first_name, message.from_user.id, message.text))
     await state.finish() 
 
