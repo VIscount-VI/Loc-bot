@@ -30,7 +30,7 @@ def create_inventory(body, user_id, name):
     'body':body, 
     'user_id':user_id,
     })
-    return 'Xabar yuborildi'
+    return 'Xabar yuborildi !! Yuborgan xabaringizni ko`ring http://java4js.pythonanywhere.com/'
     print(post)
 
 
