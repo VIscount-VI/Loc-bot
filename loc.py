@@ -4,7 +4,7 @@ import json
 
 
 
-BASE_URL = 'http://java4js.pythonanywhere.com/'
+BASE_URL = ''
 
 
 def create_user(username, name, user_id):
